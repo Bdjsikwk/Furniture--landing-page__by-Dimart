@@ -1,0 +1,93 @@
+header {
+    padding-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0 0 390px 0;
+}
+
+.header {
+    background-image: url(./../images/bg.png);
+    padding-bottom: 700px;
+}
+
+.why-header {
+    background-image: url(./../images/bg12.png);
+    
+}
+
+.tours-header {
+    background-image: url(./../images/bg100.png);
+}
+
+.contacts-header {
+    background-image: url(./../images/bgg.png);
+}
+
+.links-header {
+    background-image: url(./../images/bg1g.png);
+}
+
+.nav-header-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 20px;
+
+    @include tablet {
+        display: none;
+    }
+}
+
+
+.hero-title {
+    font-size: 94px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    font-size: clamp(3rem, 1.955rem + 5.23vw, 5.875rem);
+    margin-top: 0;
+}
+
+// new
+
+.header-list-link {
+    font-size: 19.89px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.header-list-link-active {
+    text-shadow: 0 0 15px white;
+    font-weight: 500;
+    font-size: 19.89px;
+    line-height: 24px;
+}
+
+.header-list-link:hover {
+    text-shadow: 0 0 15px white;
+    font-weight: 500;
+}
+
+.header-scroll-img {
+    margin-left: 43%;
+}
+
+// new
+
+.header-about {
+    padding-top: 60px;
+    background-image: url(./../images/1682061993_kartinki-pibig-info-p-fordi-norvezhskie-kartinki-arti-vkontakte-29\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-about-subtitle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}

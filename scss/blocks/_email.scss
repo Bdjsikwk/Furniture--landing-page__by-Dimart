@@ -1,0 +1,54 @@
+.contacts-title {
+    margin-top: 0;
+    font-size: 64px;
+    font-size: clamp(3rem, 2.636rem + 1.82vw, 4rem);
+}
+
+#contacts {
+    background-image: url(./../images/bg555.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    padding-top: 200px;
+}
+
+.contacts-subtitle {
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.email-content,
+.phone-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include tablet {
+        display: block;
+        text-align: center;
+    }
+}
+
+.email,
+.phone {
+    font-size: 30px;
+    font-size: clamp(1.125rem, 0.852rem + 1.36vw, 1.875rem);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.email-info,
+.phone-info {
+    font-size: 32px;
+    font-size: clamp(1.125rem, 0.807rem + 1.59vw, 2rem);
+    font-weight: 500;
+}
+
+.line {
+    display: flex;
+
+    @include tablet {
+        display: none;
+    }
+}

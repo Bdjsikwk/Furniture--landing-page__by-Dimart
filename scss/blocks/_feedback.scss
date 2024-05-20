@@ -1,0 +1,32 @@
+#feedback {
+    background-image: url(./../images/cover_original.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    padding-top: 200px;
+}
+
+.feedback-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feedback-text {
+    font-size: 29px;
+    font-size: clamp(0.875rem, 0.534rem + 1.7vw, 1.813rem);
+    text-align: center;
+}
+
+.customer-img {
+    width: 100px;
+    width: clamp(3.75rem, 2.841rem + 4.55vw, 6.25rem);
+    height: 100px;
+    height: clamp(3.75rem, 2.841rem + 4.55vw, 6.25rem);
+    margin: 0 auto;
+}
+
+.customer {
+    font-size: 24px;
+    text-align: center;
+}

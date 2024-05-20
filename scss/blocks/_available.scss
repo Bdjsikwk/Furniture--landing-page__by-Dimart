@@ -1,0 +1,108 @@
+#available {
+    background-image: url(./../images/bg355.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .item-link {
+        width: 94px;
+        margin: 0 auto;
+        margin-bottom: 96px;
+    }
+
+    .tour-title {
+        font-size: 48px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 188px;
+    }
+
+    .tours-wrap {
+        display: flex;
+        justify-content: center;
+        gap: 108px;
+    }
+
+    .tours-wrap-sec {
+        display: flex;
+        justify-content: center;
+        gap: 108px;
+        margin-top: 108px;
+        flex-wrap: wrap;
+    }
+
+    .tours-wrap-fst {
+        display: flex;
+        justify-content: center;
+        gap: 108px;
+        margin-top: 108px;
+        flex-wrap: wrap;
+    }
+
+    .tour {
+        background-image: url(./../images/bg111.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 367px;
+    }
+
+    .tour-sec {
+        background-image: url(./../images/bg222.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 367px;
+    }
+
+    .tour-thd {
+        background-image: url(./../images/bg333.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 367px;
+    }
+
+    .tour-fth {
+        background-image: url(./../images/bg444.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 367px;
+    }
+
+    .tour-num-img {
+        margin-left: 130px;
+    }
+
+    .tour-numb {
+        position: absolute;
+        margin: 0 auto;
+        font-size: 30px;
+        left: 370px;
+        top: 1505px;
+    }
+
+    .tour-numb-sec {
+        position: absolute;
+        margin: 0 auto;
+        font-size: 30px;
+        right: 275px;
+        top: 1505px;
+    }
+
+    .btn-open {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer; // добавляем указатель при наведении для кнопки "More"
+    }
+
+    .more-text {
+        font-size: 32px;
+    }
+
+    // Скрытый блок по умолчанию
+    #dropdownContent {
+        display: none;
+        flex-direction: column;
+        // Добавьте другие стили по вашему усмотрению
+    }
+}

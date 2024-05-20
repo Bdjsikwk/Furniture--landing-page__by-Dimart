@@ -1,0 +1,32 @@
+#digits {
+    background-image: url(./../images/studlagil-iceland-photo-tours-04.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.digits-title {
+    padding-top: 80px;
+}
+
+.digits-item-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.digits-item-img {
+    width: clamp(5.625rem, 4.625rem + 5vw, 8.375rem);
+}
+
+.digits-item {
+    display: block;
+    align-self: center;
+}
+
+.digits-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 137px;
+    padding-bottom: 372px;
+    flex-wrap: wrap;
+    gap: 30px;
+}

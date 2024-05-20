@@ -1,0 +1,88 @@
+#features {
+    background-image: url(./../images/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 0 390px 0;
+}
+
+.features-title {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 170px;
+}
+
+.cards-wrap {
+    display: flex;
+    gap: 20px; /* Уменьшаем расстояние между карточками */
+    justify-content: center;
+}
+
+.card {
+    width: 443px; /* Делаем все карточки одинаковой ширины */
+    width: clamp(18.75rem, 15.5rem + 16.25vw, 27.688rem);
+    margin-bottom: 20px; /* Расстояние между карточками */
+    /* Ваши остальные стили */
+}
+
+.card-link {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 133px 6px;
+    display: block; /* Превращаем ссылку в блочный элемент */
+    font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
+}
+
+.card-link-1 {
+    background-image: url(./../images/sian_05_m-1024x480..png);
+    background-position-x: left;
+}
+
+.card-link-2 {
+    background-image: url(./../images/sian_05_m-1024x480.\ 1.png);
+}
+
+.card-link-3 {
+    background-image: url(./../images/sian_05_m-1024x480.\ 2.png);
+
+    @include tablet {
+        display: none;
+    }
+}
+
+.card-link-4 {
+    background-image: url(./../images/stunning-landscape-photo-icesand-1.png);
+    
+    @include tablet {
+        display: none;
+    }
+}
+
+.card-link-5 {
+    background-image: url(./../images/stunning-landscape-photo-icesand-2.png);
+}
+
+.card-link-6 {
+    background-image: url(./../images/bg1234.png);
+}
+
+.card-1-column .card:last-child,
+.card-2-column .card:last-child {
+    margin-bottom: 0; /* Убираем margin у последней карточки в каждом столбце */
+}
+
+.card-link {
+    font-size: 20px;
+}
+
+/* Применение медиа-запросов */
+@media (max-width: 992px) {
+    .cards-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 20px; /* Расстояние между карточками */
+    }
+}

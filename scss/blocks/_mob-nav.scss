@@ -1,0 +1,52 @@
+.mob-nav-wrapper {
+    display: none;
+    background-color: var(--color-main);
+    padding: 30px 20px;
+    color: var(--footer-text);
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 280px;
+    z-index: 7;
+
+    &--open {
+        display: block;
+    }
+}
+
+.mobaile {
+    display: none;
+    gap: 5px;
+    font-size: 18px;
+
+    @include tablet {
+        display: flex;
+    }
+}
+
+.mob-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.close-btn {
+    width: 30px;
+}
+
+.tablet-menu {
+    margin-left: 20px;
+}
+
+.mob-nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 20px;
+}

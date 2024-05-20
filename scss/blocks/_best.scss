@@ -1,0 +1,57 @@
+#best {
+    background-image: url(./../images/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 0 390px 0;
+}
+
+.best-title {
+    position: relative;
+    font-size: 46px;
+    font-size: clamp(1.75rem, 1.341rem + 2.05vw, 2.875rem);
+    line-height: 74px;
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    top: 1692px;
+}
+
+.item-img {
+    z-index: 9;
+    transition: .3s;
+}
+
+.item-link {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 0.7;
+    transition: .3s;
+}
+.item-link:hover {
+    opacity: 1;
+}
+
+.tour-num-img {
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: (0.2);
+    }
+
+    100% {
+        opacity: (1);
+    }
+}
+
+.best-first-row {
+    font-size: 61px;
+}

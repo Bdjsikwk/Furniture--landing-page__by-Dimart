@@ -1,0 +1,63 @@
+#contacts {
+    background-image: url(./../images/Thailand-1-389604-500x0.png);
+    padding: 15px;
+}
+
+.contact-title {
+    font-size: 46px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.contact-subtitle {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    display: block;
+    font-size: 18px;
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.36);
+    background: rgba(0, 0, 0, 0.29);
+    padding: 9px 47px;
+    margin: 45px auto 0;
+    transition: .7s;
+}
+
+.submit-btn:hover {
+    background-color: var(--white);
+    color: black;
+    box-shadow: none;
+}
+
+#input {
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 12px 80px;
+    text-align: center;
+    font-size: 20px;
+    backdrop-filter: blur(4px);
+    margin-top: 40px;
+    width: clamp(18.75rem, 17.35rem + 7vw, 25.75rem);
+}
+
+.form-wrap {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,247 @@
+.swiper-container {
+    margin: 0 auto;
+    overflow: hidden; /* Скрытие слайдов, которые не вмещаются */
+    position: relative;
+    width: 100%; 
+}
+
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: white; /* Цвет неактивной точки */
+
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: orange; /* Цвет активной точки */
+    width: 15px;
+    height: 15px;
+
+}
+
+.swiper-wrapper {
+    display: block;
+    width: 980px;
+    margin-bottom: 47px;
+}
+
+.swiper-slide {
+    max-width: 100%;
+    flex-grow: 1;
+    opacity: 0.5; /* Начальная прозрачность */
+    transition: opacity 0.4s ease;
+    border-radius: 20px;
+
+    @include tablet {
+        width: 100% !important;
+    }
+}
+
+.swiper-slide-active {
+    opacity: 1; /* Активный слайд непрозрачный */
+    display: flex !important;
+}
+
+.swiper-slide:first-child {
+    margin-right: 0; /* Первый слайд смещен вправо */
+}
+
+/* Скрытие стандартного ползунка Swiper */
+.swiper-scrollbar {
+    display: none;
+}
+
+/* Остальные ваши стили */
+#why-luxury {
+    background-image: url(./../images/stunning-landscape-photo-icesand-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1500px;
+    width: clamp(20rem, 100vw, 93.75rem);
+
+    @include tablet {
+        display: none;
+    }
+}
+
+.title-first-row {
+    font-size: 61px;
+}
+
+.luxury-title {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.swiper-btn-prev,
+.swiper-btn-next {
+    display: none;
+}
+
+.arr-left {
+    display: none;
+}
+
+.arr-right {
+    display: none;
+}
+
+.swiper-btn-prev {
+    display: none;
+}
+
+.swiper-btn-next {
+    display: none;
+}
+
+.item-num-img {
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    animation: pulse 1s infinite alternate;
+}
+
+.num {
+    position: absolute;
+    margin: 0 auto;
+    font-size: 11px;
+    line-height: 14px;
+    left: 48.1%;
+    top: 51.1%;
+}
+
+.places-num {
+    font-size: 29px;
+    line-height: 35px;
+}
+
+// ///
+    .one {
+        background-size: cover;
+        width: 300px;
+        height: 520px;
+        background-image: url(./../images/a1.png);
+        border-radius: 10px;
+    }
+
+    .two {
+        background-image: url(./../images/a2.png);
+        background-size: cover;
+        width: 300px;
+        height: 520px;
+        border-radius: 10px;
+    } 
+
+    .three {
+        background-image: url(./../images/a3.png);
+        background-size: cover;
+        width: 300px;
+        height: 520px;
+        border-radius: 10px;
+    } 
+
+    .four {
+        background-image: url(./../images/a4.png);
+        background-size: cover;
+        width: 300px;
+        height: 520px;
+        border-radius: 10px;
+    } 
+
+    .swiper-title {
+        font-size: 30.94px;
+        font-weight: 400;
+        margin: 0;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .nums {
+        margin-bottom: 10px;
+    }
+
+    .num {
+        margin: 0;
+    }
+
+    .item-text {
+        margin: 0;
+    }
+
+    .swiper-btn-prev,
+    .swiper-btn-next {
+        display: none;
+    }
+
+    .arr-left {
+        display: none;
+    }
+
+    .arr-right {
+        display: none;
+    }
+
+    .swiper-btn-prev {
+        display: none;
+    }
+
+    .swiper-btn-next {
+        display: none;
+    }
+
+    .item-num-img {
+        position: relative;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 115px;
+        animation: pulse 1s infinite alternate;
+        left: 34%;
+    }
+
+    .num {
+        position: absolute;
+        margin: 0 auto;
+        font-size: 11px;
+        line-height: 14px;
+        left: 40%;
+        top: 51.1%;
+    }
+
+    .places-num {
+        font-size: 29px;
+        line-height: 35px;
+    }
+
+#why-luxury {
+    background-image: url(./../../images/bg14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 350px;
+}
+
+.swiper-text-sec {
+    position: absolute;
+}
+
+.swiper-container {
+    width: 100%;
+    
+    @include tablet {
+        margin-left: 80px;
+    }
+
+    @include phone {
+        margin-left: 100px;
+    }
+}
